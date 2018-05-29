@@ -22,3 +22,8 @@ orderbykey.sort(key = lambda x: (-x[1], x[0]))
 
 def multtwo(n):
     return n+n
+# write a few more lines over here
+
+a = [1,2,3,4,5,6]
+
+print(list(filter(lambda e: e%2 ==0, a)))
